@@ -27,3 +27,24 @@ Ngày nay, **hầu hết các mô hình ngôn ngữ lớn** (BERT, GPT, T5, LLaM
 ```python
 translator("I love Vietnam")[0]["translation_text"]
 # → Tôi yêu Việt Nam
+
+```
+
+### Ví dụ 2 – Điền từ bị che bằng PhoBERT (vinai/phobert-base)
+
+- **Mô hình:** PhoBERT – phiên bản BERT được train riêng cho tiếng Việt (VinAI)
+- **Kích thước:** ~500 MB
+- **Đặc điểm:** Hiểu ngữ cảnh tiếng Việt cực tốt, dùng <mask> để dự đoán từ phù hợp
+- **Ứng dụng thực tế:** Gợi ý từ, sửa lỗi chính tả, tạo trò chơi điền từ…
+
+```
+unmasker("Hà Nội là thủ đô <mask> Việt Nam")[:3]
+# → 1. của   2. nước   3. và
+```
+
+### Danh sách thư viện cần tải
+
+
+```bash
+pip install --upgrade pip torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu transformers[torch] sentencepiece accelerate protobuf tqdm tokenizers datasets huggingface_hub safetensors underthesea vncorenlp
+```
