@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Nguyễn Thành Huy",
+        "gender": "Nam",
+        "age": 18,
+        "birthplace": "TP Hồ chí Minh",
+        "student_id": "311411002",
+        "major": "CNTT"
+    },
+    {
+        "name": "Âu Nhật Linh",
+        "gender": "Nữ",
+        "age": 19,
+        "birthplace": "hà nội",
+        "student_id": "311456789",
+        "major": "Hóa"
+    }
+]
