@@ -4,14 +4,14 @@ Sử dụng OOP viết chương trình quản lý sinh viên đơn giản ( th�
 
 ## 2. Giới thiệu
 
-Đây là chương trình quản lý sinh viên viết bằng Python, áp dụng đầy đủ bốn tính chất OOP:
+**Đây là chương trình quản lý sinh viên viết bằng Python, áp dụng đầy đủ bốn tính chất OOP:**
 
-- Đóng gói (Encapsulation)
+- Đóng gói (Encapsulation)s
 - Kế thừa (Inheritance)
 - Đa hình (Polymorphism)
 - Trừu tượng (Abstraction)
 
-Chương trình hỗ trợ:
+**Chương trình hỗ trợ:**
 
 - Thêm sinh viên
 - Xóa sinh viên
@@ -73,6 +73,9 @@ class Student(Person):
 
 #### 5.3. Đa hình (Polymorphism)
 
+Phương thức `display_info()` được định nghĩa là trừu tượng trong lớp `Person` và được lớp `Student` override lại để hiển thị theo cách riêng.
+Các đối tượng `Student` có cách thể hiện thông tin khác nhau thông qua cùng 1 phương thức.
+
 ```python
 def display_info(self):
     print(f"Name: {self._name}")
@@ -86,6 +89,9 @@ def display_info(self):
 
 #### 5.4. Trừu tượng (Abstraction)
 
+
+Lớp `Person` đóng vai trò như một lớp trừu tượng, chứa phương thức abstract `display_info()` buộc các lớp con phải triển khai chi tiết.
+Điều này giúp mô hình hóa khái niệm chung, còn lớp con chịu trách nhiệm triển khai cụ thể.
 
 ```python
 from abc import ABC, abstractmethod
