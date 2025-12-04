@@ -1,0 +1,82 @@
+[
+    {
+        "STT":2,
+        "MaSP":"SP002",
+        "TenSP":"Chuột không dây Logitech",
+        "SoLuong":150,
+        "DonGia":350000,
+        "NgayNhap":"2025-01-16"
+    },
+    {
+        "STT":3,
+        "MaSP":"SP003",
+        "TenSP":"Màn hình Samsung 27 inch",
+        "SoLuong":25,
+        "DonGia":7200000,
+        "NgayNhap":"2025-01-17"
+    },
+    {
+        "STT":4,
+        "MaSP":"SP004",
+        "TenSP":"Bàn phím cơ AKKO",
+        "SoLuong":80,
+        "DonGia":1850000,
+        "NgayNhap":"2025-01-18"
+    },
+    {
+        "STT":5,
+        "MaSP":"SP005",
+        "TenSP":"Tai nghe Sony WH-1000XM5",
+        "SoLuong":18,
+        "DonGia":8500000,
+        "NgayNhap":"2025-01-19"
+    },
+    {
+        "STT":6,
+        "MaSP":"SP006",
+        "TenSP":"Ổ cứng SSD 1TB Samsung",
+        "SoLuong":45,
+        "DonGia":2200000,
+        "NgayNhap":"2025-01-20"
+    },
+    {
+        "STT":7,
+        "MaSP":"SP007",
+        "TenSP":"Pin sạc dự phòng 20000mAh",
+        "SoLuong":200,
+        "DonGia":650000,
+        "NgayNhap":"2025-01-21"
+    },
+    {
+        "STT":8,
+        "MaSP":"SP008",
+        "TenSP":"Webcam Logitech C920",
+        "SoLuong":35,
+        "DonGia":1650000,
+        "NgayNhap":"2025-01-22"
+    },
+    {
+        "STT":9,
+        "MaSP":"SP009",
+        "TenSP":"Router Wi-Fi 6 TP-Link",
+        "SoLuong":28,
+        "DonGia":2850000,
+        "NgayNhap":"2025-01-23"
+    },
+    {
+        "STT":10,
+        "MaSP":"SP010",
+        "TenSP":"Máy in laser Canon",
+        "SoLuong":8,
+        "DonGia":5200000,
+        "NgayNhap":"2025-01-24"
+    },
+    {
+        "STT":11,
+        "MaSP":"SP011",
+        "TenSP":"Loa Bluetooth JBL Flip 6",
+        "SoLuong":90,
+        "DonGia":1350000,
+        "NgayNhap":"2025-01-25"
+    }
+]

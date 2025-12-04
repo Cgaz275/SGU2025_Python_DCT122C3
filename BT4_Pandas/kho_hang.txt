@@ -1,0 +1,3 @@
+ID	SanPham	TonKho	GiaBan
+115	Đèn bàn Xiaomi Mi LED Desk Lamp	200	850000
+116	Máy lọc không khí Xiaomi 4 Pro	22	6800000

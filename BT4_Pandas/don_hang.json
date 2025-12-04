@@ -1,0 +1,58 @@
+{
+  "cua_hang": "Shop Công Nghệ 24h",
+  "dia_chi": "123 Nguyễn Trãi, Q.5, TP.HCM",
+  "ngay_xuat_file": "2025-04-05",
+  "orders": [
+    {
+      "ma_don": "DH001",
+      "khach_hang": "Nguyễn Văn An",
+      "ngay_dat": "2025-03-15",
+      "trang_thai": "Đã giao",
+      "san_pham": [
+        {"ten": "Laptop Dell Inspiron 15", "so_luong": 1, "don_gia": 18500000},
+        {"ten": "Chuột không dây Logitech", "so_luong": 2, "don_gia": 350000},
+        {"ten": "Balo laptop", "so_luong": 1, "don_gia": 450000}
+      ]
+    },
+    {
+      "ma_don": "DH002",
+      "khach_hang": "Trần Thị Bé",
+      "ngay_dat": "2025-03-18",
+      "trang_thai": "Đang xử lý",
+      "san_pham": [
+        {"ten": "Tai nghe Sony WH-1000XM5", "so_luong": 1, "don_gia": 8500000},
+        {"ten": "Ốp lưng iPhone 15 Pro", "so_luong": 3, "don_gia": 350000}
+      ]
+    },
+    {
+      "ma_don": "DH003",
+      "khach_hang": "Lê Minh Châu",
+      "ngay_dat": "2025-03-20",
+      "trang_thai": "Đã giao",
+      "san_pham": [
+        {"ten": "Màn hình Samsung 27 inch", "so_luong": 2, "don_gia": 7200000},
+        {"ten": "Bàn phím cơ AKKO", "so_luong": 1, "don_gia": 1850000}
+      ]
+    },
+    {
+      "ma_don": "DH004",
+      "khach_hang": "Phạm Quốc Duy",
+      "ngay_dat": "2025-03-25",
+      "trang_thai": "Đã hủy",
+      "san_pham": [
+        {"ten": "iPhone 15 Pro Max 256GB", "so_luong": 1, "don_gia": 34990000}
+      ]
+    },
+    {
+      "ma_don": "DH005",
+      "khach_hang": "Huỳnh Ngọc Mai",
+      "ngay_dat": "2025-04-01",
+      "trang_thai": "Đã giao",
+      "san_pham": [
+        {"ten": "Pin dự phòng 20000mAh", "so_luong": 5, "don_gia": 650000},
+        {"ten": "Cáp sạc nhanh Type-C", "so_luong": 10, "don_gia": 120000},
+        {"ten": "Đèn LED bàn học", "so_luong": 2, "don_gia": 450000}
+      ]
+    }
+  ]
+}
